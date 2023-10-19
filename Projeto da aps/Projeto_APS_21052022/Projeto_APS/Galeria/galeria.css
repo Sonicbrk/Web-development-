@@ -1,0 +1,111 @@
+body {
+  background:  linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)), url(Imagens/pf_2lrjwije-1920x1080.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-position-y: 0px;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: sans-serif;
+  
+}
+
+
+
+
+
+
+
+
+
+/* personalização da cor*/
+.galeria{
+transition: 0.3s;
+}
+.galeria:hover{
+background-color: rgb(32, 32, 32);
+border: double;
+color: aquamarine;
+
+}
+
+/* propriedades da galeria*/
+.galeria {
+  margin: 5px;
+  border: 1px solid #ccc;
+  height: 400px;
+  width: auto;
+  flex-wrap: wrap;
+ clear: both;
+  padding: 40px;
+  display: 33.33%;
+  
+
+ 
+  
+}
+
+
+
+.galeria img {
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  clear: both;
+}
+
+.descrição {
+  font-size: large;
+  padding: 5px;
+  text-align: center;
+  
+}
+
+
+
+.texto{
+float: initial;
+display: block;
+flex-direction: row;
+margin-top: 50px;
+background-color:  rgba(0, 0, 0, 0.6);
+color: white;
+padding: 5px 40px;
+margin-top: 20px;
+border-radius: 10px;
+clear: both;
+font-size: large;
+margin-right: 25%;
+margin-left: 25%;
+}
+
+
+@media screen and (max-width: 1060px) {
+body{
+  width: 100%;
+  display: block;
+clear: both;
+height: auto;
+}
+.texto{
+ float: initial;
+  width: auto;
+  height: auto;
+  margin: 0;
+  text-align: left;
+  flex-wrap: wrap;
+  display: block;
+}
+.descrição{
+  flex-wrap: wrap;
+  display: flex;
+  border: 1px solid #ccc;
+}
+.galeria{
+text-align: center;
+flex-wrap: wrap;
+display: flex;
+float: initial;
+width: auto;
+height: auto;
+}
+}
